@@ -1,0 +1,39 @@
+
+#Ignore vscode AI rules
+.github/instructions/codacy.instructions.md
+.rag-env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+rag-env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data
+data/
+uploads/
+vectorstore/
+
+# Logs
+*.log
+
+# Development artifacts
+check_db.py
+test_search.py
+reindex_documents.py
+
+# OS
+.DS_Store
+Thumbs.db
